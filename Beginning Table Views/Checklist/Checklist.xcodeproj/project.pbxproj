@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B072EB772289AF74008ADBE3 /* ProtocolsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolsPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B0B4CE6822899F540080AEDE /* Checklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B4CE6B22899F540080AEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0B4CE6D22899F540080AEDE /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 				B0B4CE7222899F540080AEDE /* Assets.xcassets */,
 				B0B4CE7422899F540080AEDE /* LaunchScreen.storyboard */,
 				B0B4CE7722899F540080AEDE /* Info.plist */,
+				B072EB772289AF74008ADBE3 /* ProtocolsPlayground.playground */,
 			);
 			path = Checklist;
 			sourceTree = "<group>";
