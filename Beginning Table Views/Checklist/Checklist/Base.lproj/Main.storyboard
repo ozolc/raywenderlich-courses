@@ -24,6 +24,20 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4uD-gx-Vfb" id="UBm-HF-fT5">
                                     <rect key="frame" x="0.0" y="0.0" width="335" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPo-G9-M9o">
+                                            <rect key="frame" x="20" y="11" width="295" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="wPo-G9-M9o" secondAttribute="trailing" constant="20" symbolic="YES" id="52q-u0-qOd"/>
+                                        <constraint firstItem="wPo-G9-M9o" firstAttribute="top" secondItem="UBm-HF-fT5" secondAttribute="top" constant="11" id="8zJ-5K-g9w"/>
+                                        <constraint firstAttribute="bottom" secondItem="wPo-G9-M9o" secondAttribute="bottom" constant="11.5" id="mx5-gh-fty"/>
+                                        <constraint firstItem="wPo-G9-M9o" firstAttribute="leading" secondItem="UBm-HF-fT5" secondAttribute="leading" constant="20" symbolic="YES" id="x2p-VG-7iL"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
