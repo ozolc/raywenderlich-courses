@@ -34,3 +34,17 @@ FileManager.documentDirectoryURL
 
 try string.write(to: stringURL, atomically: true, encoding: .utf8)
 try String(contentsOf: stringURL)
+
+
+// Challenge
+
+let challengeString = "low F#"
+let challengeStringURL = URL(
+    fileURLWithPath: challengeString,
+    relativeTo: FileManager.documentDirectoryURL
+    ).appendingPathExtension("txt")
+
+let challengeStringData = challengeString.data(using: .utf8)!
+
+try challengeStringData.write(to: challengeStringURL, options: .atomic)
+let savedChallengeString = try String(contentsOf: challengeStringURL)
