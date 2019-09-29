@@ -46,6 +46,7 @@ class PhotosViewController: UICollectionViewController {
     allPhotosOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: true)]
     return PHAsset.fetchAssets(with: allPhotosOptions)
   }
+    
 
   // MARK: View Controller
   override func viewDidLoad() {
@@ -55,7 +56,7 @@ class PhotosViewController: UICollectionViewController {
 
   override func viewWillDisappear(_ animated: Bool) {
     super.viewWillDisappear(animated)
-
+    selectedPhotosSubject.onCompleted()
   }
 
   // MARK: UICollectionView
